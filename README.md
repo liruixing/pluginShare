@@ -1,2 +1,3 @@
-# pluginShare
-插件化分享相关资料
+# PluginShare
+
+此为插件化分享资料

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello,大家好  我是Plugin1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:id="@+id/btn_gotonext"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Go To Next"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@id/tv_hello"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/btn_startService"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="StartService"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@id/btn_gotonext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/btn_startReceiver"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="StartReceiver"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@id/btn_startService"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/btn_startHostReceiver"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="startHostReceiver"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@id/btn_startReceiver"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>
